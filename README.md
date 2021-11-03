@@ -2,11 +2,15 @@
 
 A fork of the simple time tracker for Mac OS X by Nat Friedman (nat@nat.org).
 
-Written May 6, 2010 in Munich, while a soft rain fell.
+```
+conda env create -f environment.yml
+conda activate trackmac
+python trackmack.py
+```
 
 Run this script in a terminal. It displays activity statistics 
 from the last 24 hours, like this:
-```shell
+```
  1h 8m57s  70%  Google Chrome
    14m17s  14%  Mail
     8m11s   8%  iChat
