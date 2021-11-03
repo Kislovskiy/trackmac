@@ -1,0 +1,6 @@
+name: trackmac
+dependencies:
+  - python=3.10.0
+  - pip:
+    - 2to3
+    - PyObjC==7.3
